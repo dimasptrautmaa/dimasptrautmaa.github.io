@@ -9,6 +9,7 @@
     height: 100vh;
     background: linear-gradient(to right, rgb(50, 50, 50), rgb(30, 30, 30));
     position: relative;
+    overflow: hidden;
 }
 
 #logo h1 {
