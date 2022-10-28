@@ -1,0 +1,172 @@
+@media (max-width: 576px) {
+
+    /* ----- P A G E - P E R S O N ----- */
+
+    #logo h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        position: absolute;
+        width: 100%;
+        height: 30vh;
+        top: -250px;
+        left: 0;
+        background-color: rgb(55, 55, 55);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 10;
+        font-size: 0.8em;
+        justify-content: space-around;
+        transition: 0.5s all;
+    }
+
+    nav ul.move {
+        top: 0;
+    }
+
+    nav {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    img#menu {
+        display: flex;
+        z-index: 10;
+    }
+
+    section {
+        width: 90%;
+        font-size: 0.9em;
+    }
+
+    img#img-dimas-2 {
+        display: block;
+        position: absolute;
+        width: 280px;
+        bottom: 0;
+        right: 0;
+    }
+
+    #img-person {
+        position: absolute;
+    }
+
+    #text-person {
+        width: 100%;
+    }
+
+    /* ----- P A G E - S K I L L ----- */
+
+    #page-skill {
+        flex-direction: column;
+    }
+
+    #box {
+        scale: 0.8;
+    }
+
+    /* ----- P A G E - E X P E R I E N C E ----- */
+
+    #page-experience {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #box-experience {
+        scale: 0.8;
+    }
+
+    #box-more {
+        scale: 0.8;
+    }
+
+    #wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 425px) {
+    section {
+        font-size: 0.63em;
+        height: 65%;
+    }
+
+    #text-person p{
+        line-height: 20px;
+    }
+
+    #text-person button {
+        width: 100px;
+        height: 35px;
+        font-size: 0.8em;
+        margin-top: 20px;
+    }
+
+    #box{
+        scale: 0.7;
+    }
+
+    #wrapper {
+        scale: 0.8;
+    }
+}
+
+@media (max-width: 320px){
+
+    /* ----- P A G E - P E R S O N ----- */
+
+    section {
+        font-size: 0.55em;
+    }
+    
+    /* ----- P A G E - S K I L L ----- */
+
+    #box {
+        scale: 0.6;
+    }
+
+    #page-skill {
+        width: 100%;
+    }
+
+    #box-experience {
+        scale: 0.65;
+    }
+
+    /* ----- P A G E - E X P E R I E N C E ----- */
+
+    #wrapper {
+        scale: 0.7;
+    }
+
+    #page-experience {
+        width: 100%;
+    }
+}
+
+@media (max-width: 265px) {
+    /* ----- P A G E - S K I L L ----- */
+
+    #box {
+        scale: 0.55;
+    }
+
+    /* ----- P A G E - E X P E R I E N C E ----- */
+
+    #wrapper {
+        scale: 0.55;
+    }
+
+    #page-experience {
+        width: 100%;
+    }
+
+    #box-experience {
+        scale: 0.55;
+    }
+}

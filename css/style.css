@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-person {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(50, 50, 50), rgb(30, 30, 30));
+    position: relative;
+}
+
+#logo h1 {
+    font-family: 'Inspiration', cursive;
+    font-size: 3.5em;
+    color: rgb(255, 188, 167);
+    letter-spacing: 5px;
+}
+
+img#menu {
+    width: 22px;
+    display: none;
+}
+
+img#img-dimas-2 {
+    display: none;
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 7%;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(170, 170, 170);
+}
+
+section {
+    width: 80%;
+    position: relative;
+    display: flex;
+    height: 93%;
+    margin: auto;
+}
+
+#img-person {
+    width: 50%;
+    background: url(../assets/img/dimasputra.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#text-person {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    gap: 5px;
+}
+
+#text-person h4 {
+    color: rgb(255, 188, 167);
+    font-size: 1.7em;
+}
+
+#text-person h1 {
+    font-size: 4em;
+    color: white;
+}
+
+#space {
+    letter-spacing: 1px;
+}
+
+#text-person p {
+    font-size: 1.1em;
+    color: rgba(170, 170, 170, 0.799);
+    padding-top: 10px;
+    line-height: 30px;
+    font-family: 'poppins', sans-serif;
+}
+
+#text-person button {
+    width: 150px;
+    height: 50px;
+    border-style: none;
+    margin-top: 70px;
+    background: linear-gradient(to right, rgb(255, 155, 125), rgb(255, 188, 167));
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: 'poppins', sans-serif;
+    font-size: 0.95em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#text-person button:hover {
+    background: linear-gradient(to right, rgb(255, 155, 125), rgb(255, 155, 125));
+}
+
+/* ------ P A G E - S K I L L ------ */
+
+#page-skill {
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(to right,rgb(50, 50, 50), rgb(30, 30, 30));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#box {
+    width: 420px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+}
+
+#box img {
+    width: 100px;
+}
+
+#container {
+    width: 80%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container h3 {
+    font-size: 3em;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+#container a {
+    text-decoration: none;
+    color: rgb(255, 188, 167);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#container a img {
+    width: 30px;
+    animation: slide 1s ease-in-out alternate infinite;
+}
+
+@keyframes slide {
+    from {
+
+    }
+
+    to {
+        transform: translateX(10px);
+    }
+}
+
+#container p {
+    font-size: 1.2em;
+    color: rgb(155, 155, 155);
+    font-family: 'poppins', sans-serif;
+}
+
+/* ----- P A G E - E X P E R I E N C E ----- */
+
+#page-experience {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to right,rgb(50, 50, 50), rgb(30, 30, 30));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+
+#box-experience {
+    width: 400px;
+    height: 400px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-experience h1 {
+    font-size: 10em;
+    color: rgb(255, 188, 167);
+    font-family: 'poppins', sans-serif;
+}
+
+#box-experience h3 {
+    font-size: 2.3em;
+    letter-spacing: 2px;
+}
+
+#box-more {
+    width: 370px;
+    height: 150px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#box-more h1 {
+    font-size: 2.5em;
+    color: rgb(255, 188, 167);
+    font-family: 'poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+#box-more h3 {
+    color: rgb(155, 155, 155);
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-family: 'poppins', sans-serif;
+}
