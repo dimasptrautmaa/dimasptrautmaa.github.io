@@ -132,7 +132,7 @@
 
     #page-skill {
         width: 100%;
-        height: 200vh;
+        height: 100%;
     }
 
     #box-experience {
@@ -168,6 +168,6 @@
     }
 
     #box-experience {
-        scale: 0.55;
+        scale: 0.45;
     }
 }
