@@ -14,4 +14,5 @@ window.addEventListener('scroll', function(){
     img.style.translate = value * -0.45 +'px';
     textperson.style.translate = value * 0.25 + 'px';
     img2.style.translate = value * 0.75 + 'px';
+    navul.classList.remove('move');
 });
