@@ -164,14 +164,18 @@
 @media (max-width: 265px) {
     /* ----- P A G E - S K I L L ----- */
 
+    section {
+        font-size: 0.45em;
+    }
+
     #box {
-        scale: 0.55;
+        scale: 0.45;
     }
 
     /* ----- P A G E - E X P E R I E N C E ----- */
 
     #wrapper {
-        scale: 0.55;
+        scale: 0.5;
     }
 
     #page-experience {
