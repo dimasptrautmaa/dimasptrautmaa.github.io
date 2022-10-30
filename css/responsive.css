@@ -53,7 +53,7 @@
         display: block;
         position: absolute;
         width: 280px;
-        bottom: 0;
+        bottom: 50px;
         right: 0;
     }
 
@@ -101,7 +101,7 @@
 @media (max-width: 425px) {
     section {
         font-size: 0.63em;
-        height: 65%;
+        height: 50%;
     }
 
     #text-person p{
