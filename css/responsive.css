@@ -68,11 +68,17 @@
     /* ----- P A G E - S K I L L ----- */
 
     #page-skill {
-        flex-direction: column;
+        gap: 0;
+        justify-content: flex-start;
+        overflow: scroll;
+    }
+
+    #wrapper-skill {
+        display: flex;
     }
 
     #box {
-        scale: 0.8;
+        scale: 0.9;
     }
 
     /* ----- P A G E - E X P E R I E N C E ----- */
@@ -99,6 +105,9 @@
 }
 
 @media (max-width: 425px) {
+
+    /* ----- P A G E - P E R S O N ----- */
+
     section {
         font-size: 0.63em;
         height: 50%;
@@ -113,6 +122,20 @@
         height: 35px;
         font-size: 0.8em;
         margin-top: 20px;
+    }
+
+    img#img-dimas-2 {
+        display: block;
+        position: absolute;
+        width: 280px;
+        bottom: 50px;
+        right: 0;
+    }
+
+    /* ----- P A G E - S K I L L ----- */
+
+    #page-skill {
+        flex-direction: row;
     }
 
     #box{
@@ -157,32 +180,5 @@
 
     #page-experience {
         width: 100%;
-    }
-}
-
-
-@media (max-width: 265px) {
-    /* ----- P A G E - S K I L L ----- */
-
-    section {
-        font-size: 0.45em;
-    }
-
-    #box {
-        scale: 0.45;
-    }
-
-    /* ----- P A G E - E X P E R I E N C E ----- */
-
-    #wrapper {
-        scale: 0.5;
-    }
-
-    #page-experience {
-        width: 100%;
-    }
-
-    #box-experience {
-        scale: 0.45;
     }
 }

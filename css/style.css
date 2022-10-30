@@ -126,7 +126,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#wrapper-skill {
     gap: 25px;
+    flex-direction: row;
+    display: flex;
 }
 
 #box {
