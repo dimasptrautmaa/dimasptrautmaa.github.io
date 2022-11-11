@@ -82,6 +82,7 @@
 
     #wrapper-skill {
         display: flex;
+        width: max-content;
     }
 
     #box {

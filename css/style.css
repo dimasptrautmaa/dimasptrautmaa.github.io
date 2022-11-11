@@ -12,6 +12,10 @@
     overflow: hidden;
 }
 
+.span-color {
+    color: rgb(255, 188, 167);
+}
+
 #logo h1 {
     font-family: 'Inspiration', cursive;
     font-size: 3.5em;
@@ -135,7 +139,7 @@ section {
 #wrapper-skill {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     margin: 0 20px;
 }
 
