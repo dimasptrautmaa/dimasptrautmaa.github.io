@@ -14,3 +14,23 @@ window.addEventListener('scroll', function(){
 menu.addEventListener('click', function(){
     navul.classList.toggle('move');
 });
+
+
+// P R O J E C T 
+
+const swipe = document.getElementById('swipe-menu');
+const project = document.getElementById('wrap-project');
+const closex = document.getElementById('close');
+const logo = document.getElementById('logo');
+
+swipe.addEventListener('click', function(){
+    project.classList.add('swipe');
+    closex.style.display = 'flex';
+    logo.style.display = 'none';
+});
+
+closex.addEventListener('click', function(){
+    project.classList.remove('swipe');
+    closex.style.display = 'none';
+    logo.style.display = 'flex';
+});

@@ -41,6 +41,12 @@ nav {
     height: 7%;
 }
 
+img#close {
+    width: 27px;
+    display: none;
+    cursor: pointer;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -55,8 +61,61 @@ nav ul li a{
 }
 
 #section-column {
-    width: 70%;
-    background-color: grey;
-    height: 100%;
+    width: 100%;
+    height: 92%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+video#slogan {
+    width: 980px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px rgb(20, 20, 20);
+    margin-top: 60px;
+}
+
+#swipe-menu img {
+    width: 50px;
+    cursor: pointer;
+}
+
+#box {
+    width: 470px;
+    height: 320px;
+    background-color: grey;
+    border-radius: 20px;
+    scale: 0.75;
+    box-shadow: 10px 10px 20px rgb(29, 29, 29);
+}
+
+#wrap-project {
+    overflow: scroll;
+    width: 100%;
+    height: 92%;
+    background-color: rgb(50, 50, 50);
+    position: absolute;
+    bottom: -1400px;
+    left: 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    transition: 0.7s  ease-in-out;
+    box-shadow: inset 5px 5px 10px rgb(74, 74, 74),
+    inset -7px -7px 10px rgb(27, 27, 27) ;
+}
+
+#wrap-project.swipe {
+    bottom: 0;
+}
+
+#succes-project {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
 }
