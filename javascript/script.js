@@ -23,6 +23,10 @@ const project = document.getElementById('wrap-project');
 const closex = document.getElementById('close');
 const logo = document.getElementById('logo');
 
+document.querySelector('video').playbackRate = 1.3;
+document.querySelector('video').playsInline();
+
+
 swipe.addEventListener('click', function(){
     project.classList.add('swipe');
     closex.style.display = 'flex';
