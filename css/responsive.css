@@ -22,6 +22,11 @@
         border-radius: 15px;
     }
 
+    video#slogan {
+        width: 80vmin;
+        margin-top: 50px;
+    }
+
     nav ul.move {
         bottom: 0;
     }
@@ -157,6 +162,10 @@
 
     #wrapper {
         scale: 0.8;
+    }
+
+    video#slogan {
+        margin-top: 0px;
     }
 }
 
