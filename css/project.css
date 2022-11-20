@@ -162,3 +162,25 @@ p#info {
         box-shadow: 20px 20px 50px #cda7e590, -10px -10px 50px #cda7e575;
     }
 }
+
+@media (max-width: 576px){
+    #page-1 {
+        overflow: scroll;
+    }
+
+    #section-project {
+        flex-direction: column;
+        height: max-content;
+        margin-top: 80px;
+    }
+
+    #box {
+        width: 350px;
+        height: 390px;
+    }
+
+    nav#two {
+        padding: 0;
+        width: 90%;
+    }
+}
