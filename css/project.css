@@ -187,6 +187,7 @@ p#info {
         flex-direction: column;
         height: max-content;
         margin-top: 80px;
+        animation: gap 1s ease-in-out 1s forwards paused ;
     }
 
     #box {
