@@ -75,16 +75,16 @@ nav ul li a{
     }
 
     to {
-        gap: 40px;
+        gap: 50px;
     }
 }
 
 #box {
     width: 370px;
-    height: 480px;
-    background-color: grey;
+    height: 420px;
+    background-color: rgb(50, 50, 50);
     border-radius: 15px;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     font-family: 'poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -120,13 +120,25 @@ p#info {
     width: 150px;
 }
 
+#logo-box img#primary {
+    opacity: 0;
+    animation: opp 1s ease-in-out 1s forwards;
+}
+
+@keyframes opp {
+    from{}
+    to {
+        opacity: 1;
+    }
+}
+
 #box:hover {
-    transform: translateY(-30px);
+    transform: translateY(-15px);
 }
 
 #box.FFC971 {
     animation: ffc971 1s ease-in-out 2s forwards;
-    color: #9b835c;
+    color: rgb(60, 60, 60);
 }
 
 @keyframes ffc971 {
@@ -134,12 +146,13 @@ p#info {
     to {
         background-color: #ffd99c;
         box-shadow: 20px 20px 50px #ffd99cc0, -10px -10px 50px #ffd99c80;
+        color: #9b835c;
     }
 }
 
 #box.c9ffe2 {
     animation: c9ffe2 1s ease-in-out 2.6s forwards;
-    color: #80a591;
+    color: rgb(60, 60, 60);
 }
 
 @keyframes c9ffe2 {
@@ -147,12 +160,13 @@ p#info {
     to {
         background-color: #c9ffe2;
         box-shadow: 20px 20px 50px #c9ffe2a0, -10px -10px 50px #c9ffe27c;
+        color: #80a591;
     }
 }
 
 #box.BA94D1{
     animation: ba94d1 1s ease-in-out 3.1s forwards;
-    color: #836993;
+    color: rgb(60, 60, 60);
 }
 
 @keyframes ba94d1 {
@@ -160,6 +174,7 @@ p#info {
     to {
         background-color: #cda7e5;
         box-shadow: 20px 20px 50px #cda7e590, -10px -10px 50px #cda7e575;
+        color: #836993;
     }
 }
 
