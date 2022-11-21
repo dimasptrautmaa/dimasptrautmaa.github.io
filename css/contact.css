@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-1 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(50, 50, 50), rgb(30, 30, 30));
+    position: relative;
+    overflow: hidden;
+}
+
+.span-color {
+    color: rgb(255, 188, 167);
+}
+
+#logo h1 {
+    font-family: 'Inspiration', cursive;
+    font-size: 3.5em;
+    color: rgb(255, 188, 167);
+    letter-spacing: 5px;
+}
+
+img#menu-logo {
+    width: 30px;
+    display: none;
+}
+
+img#menu {
+    width: 22px;
+    display: none;
+}
+
+nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 7%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(170, 170, 170);
+}
+
+#section-contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#box {
+    width: 870px;
+    height: 520px;
+    background-color: #ffd99c;
+    box-shadow: 20px 20px 50px #ffd99cc0, -10px -10px 50px #ffd99c80, inset -10px -10px 20px #99825d,
+    inset 10px 10px 20px #ffe8c2;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    position: relative;
+}
+
+#text-box {
+    width: 50%;
+    height: 100%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    color: #393021;
+    text-shadow: 5px 5px 10px #ae946a;
+}
+
+#text-box h2 {
+    transform: translateY(-20px);
+}
+
+#text-box h2, #text-box h1 {
+    font-family: 'Rubik Microbe', cursive;
+}
+
+#text-box p {
+    font-size: 1.2em;
+    transform: translateY(5px);
+    color: #a18860;
+}
+
+#icon-box {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    height: 100%;
+}
+
+#icon-box img {
+    width: 45px;
+    box-shadow: 7px 7px 15px #a28a63;
+    border-radius: 15px;
+}
+
+#logo-box {
+    width: 50%;
+    height: 100%;
+}
+
+#logo-box img {
+    width: 300px;
+    border-radius: 15px;
+    float: right;
+    margin: 25px 30px;
+    box-shadow: 10px 10px 20px #a28a63;
+}
