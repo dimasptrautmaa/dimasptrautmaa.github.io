@@ -31,3 +31,6 @@ closex.addEventListener('click', function(){
     closex.style.display = 'none';
     logo.style.display = 'flex';
 });
+
+// C O N T A C T 
+
