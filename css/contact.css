@@ -84,7 +84,7 @@ nav ul li a{
 
 #front {
     background: url(/assets/img/back.png);
-    background-size: 1200px;
+    background-size: 80vmax;
     background-position: center;
     width: 100%;
     height: 100%;
@@ -113,7 +113,7 @@ nav ul li a{
 
 #back {
     background: url(/assets/img/front.png);
-    background-size: 1000px;
+    background-size: 70vmax;
     background-position: center;
     width: 100%;
     height: 100%;
